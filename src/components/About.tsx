@@ -6,11 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I am currently co-founder of CallHQ.ai, building real-time voice AI for
-          businesses. I am a technologist at heart with strong business judgment—
-          I enjoy going from product strategy to hands-on engineering. My background
-          spans leadership at Adobe, founding Broki and CallHQ, and shipping
-          full-stack products end to end.
+          Graphic Designer with 5+ years of experience across travel, digital marketing, IT, and
+          event-management industries. Skilled in branding, social media, print, website design (Wix),
+          and UI design for app and web products in Figma. Comfortable owning projects end-to-end —
+          from concept to client-ready delivery — while collaborating closely with marketing, product,
+          and development teams to meet deadlines without compromising quality.
         </p>
       </div>
     </div>

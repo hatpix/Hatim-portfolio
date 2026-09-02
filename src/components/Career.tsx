@@ -15,58 +15,81 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>Graphic Designer</h4>
+                <h5>Design Master Ltd · Kuwait</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2022–NOW</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              IT & Conference Management Company. Design UI screens and layouts for app/website
+              products in Figma, create branding and marketing graphics for IT/conference
+              campaigns, and partner with developers to streamline design handoff.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Graphic Designer</h4>
+                <h5>TOC Tours Pvt Ltd · India</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>2021–22</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Travel & Tourism Company. Designed social media creatives and website banners for
+              tour packages, built and maintained the company website on Wix, and designed logos
+              and illustrations approved on first review.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Associate Graphic Designer</h4>
+                <h5>Saevah · India</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>2020–21</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
+              Digital Marketing Company. Designed promotional banners and ad creatives for client
+              campaigns, produced product mockups in Photoshop/Illustrator, and managed ongoing
+              website content updates.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
+                <h4>Freelance Graphic Designer</h4>
+                <h5>Soor Technologies · Kuwait</h5>
               </div>
-              <h3>2013-16</h3>
+              <h3>2018–19</h3>
             </div>
             <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              IT Company (Freelance). Designed social media graphics and campaign visuals,
+              sketching multiple concept directions per brief to reduce client revisions.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Graphic Designer</h4>
+                <h5>Green Cap Media · India</h5>
+              </div>
+              <h3>2017–18</h3>
+            </div>
+            <p>
+              Digital Marketing & Event Management. Designed print-ready brochures, banners, and
+              signage for events, plus social posts aligned with client brand guidelines.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Diploma in Graphic Design</h4>
+                <h5>Arena Animation · India</h5>
+              </div>
+              <h3>2017–18</h3>
+            </div>
+            <p>
+              Foundation in graphic design principles, typography, layout, and digital production tools.
             </p>
           </div>
         </div>
