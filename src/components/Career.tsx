@@ -78,7 +78,7 @@ const Career = () => {
             <p>
               Digital Marketing & Event Management. Designed print-ready brochures, banners, and
               signage for events, plus social posts aligned with client brand guidelines.
-
+            </p>
           </div>
         </div>
       </div>
