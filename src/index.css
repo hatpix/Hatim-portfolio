@@ -135,3 +135,10 @@ body {
     font-size: 40px;
   }
 }
+
+.netlify-badge,
+iframe[title*="netlify" i],
+a[href*="netlify.com"][class*="badge" i],
+div[class*="netlify" i][style*="position: fixed" i] {
+  display: none !important;
+}
