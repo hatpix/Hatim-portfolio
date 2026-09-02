@@ -78,19 +78,7 @@ const Career = () => {
             <p>
               Digital Marketing & Event Management. Designed print-ready brochures, banners, and
               signage for events, plus social posts aligned with client brand guidelines.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Diploma in Graphic Design</h4>
-                <h5>Arena Animation · India</h5>
-              </div>
-              <h3>2017–18</h3>
-            </div>
-            <p>
-              Foundation in graphic design principles, typography, layout, and digital production tools.
-            </p>
+
           </div>
         </div>
       </div>
