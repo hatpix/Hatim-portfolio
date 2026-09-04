@@ -19,14 +19,19 @@ const Contact = () => {
                 LinkedIn — hatimnathwara
               </a>
             </p>
-            <h4>Education</h4>
-            <p>
-              Diploma in Graphic Design, Arena Animation, India — 2017–2018
-            </p>
             <h4>Location</h4>
             <p>Kuwait</p>
             <h4>Phone</h4>
-            <p>+965 9678-2730</p>
+            <p style={{ marginBottom: '4px' }}>
+              <a href="https://wa.me/96596782730" target="_blank" rel="noopener noreferrer">
+                +965 9678-2730
+              </a>
+            </p>
+            <p>
+              <a href="https://wa.me/917976136532" target="_blank" rel="noopener noreferrer">
+                +91 79761-36535
+              </a>
+            </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>

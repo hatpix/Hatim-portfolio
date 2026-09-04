@@ -5,31 +5,97 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Project One",
+    title: "Faker Feha Gamming App",
     category: "UI/UX — App Design",
-    tools: "Figma, Prototyping, Design System",
-    image: "/images/placeholder.webp",
+    tools: "Figma, Adobe Illustrator",
+    description: "Faker Feha is a social multiplayer trivia platform that connects users worldwide for fun, real-time Q&A challenges.",
+    image: "/work/App-Design/Appdesign-1.png",
     link: "#",
   },
   {
-    title: "Project Two",
-    category: "Brand Identity",
-    tools: "Adobe Illustrator, Photoshop, Brand Guidelines",
-    image: "/images/placeholder.webp",
+    title: "Virtual Clinic & Booking Platform",
+    category: "UI/UX — App Design",
+    tools: "Figma, Prototyping",
+    description: "A digital healthcare app designed to simplify doctor appointments and facilitate remote treatments through seamless video and audio consultations.",
+    image: "/work/App-Design/Appdesign-2.png",
     link: "#",
   },
   {
-    title: "Project Three",
-    category: "Social Media & Digital Campaign",
-    tools: "Photoshop, Illustrator, Social Media Design",
-    image: "/images/placeholder.webp",
+    title: "Jamiye",
+    category: "UI/UX — App Design",
+    tools: "Figma, Design System",
+    description: "An intuitive digital platform providing students with instant access to categorized shopping discounts and exclusive brand coupons.",
+    image: "/work/App-Design/Appdesign-3.png",
     link: "#",
   },
   {
-    title: "Project Four",
-    category: "Website Design (Wix)",
-    tools: "Wix, UX Layout, Web Design",
-    image: "/images/placeholder.webp",
+    title: "Construction Marketplace",
+    category: "UI/UX — App Design",
+    tools: "Figma, Prototyping",
+    description: "A dedicated mobile shopping platform designed to make ordering essential home-building materials fast, visually clear, and accessible.",
+    image: "/work/App-Design/Appdesign-4.png",
+    link: "#",
+  },
+  {
+    title: "TAS entertainment",
+    category: "Web Design — UI",
+    tools: "Figma, Web Design",
+    description: "A highly visual website designed for a family fun park, highlighting magical wonderland experiences, ticket bookings, and interactive kids' zones.",
+    image: "/work/Web-Design/Webdesign-1.png",
+    link: "#",
+  },
+  {
+    title: "Ent Conference 2025",
+    category: "Web Design — UI",
+    tools: "Figma, Web Design",
+    description: "A clean, professional landing page designed for a medical conference.",
+    image: "/work/Web-Design/Webdesign-2.png",
+    link: "#",
+  },
+  {
+    title: "Residential Hotel",
+    category: "Web Design — Dashboard UI",
+    tools: "Figma, Design System",
+    description: "An intuitive hospitality website showcasing luxury stays and easy booking.",
+    image: "/work/Web-Design/Webdesign-3.png",
+    link: "#",
+  },
+  {
+    title: "Lunara Coffee",
+    category: "Branding — Logo Design",
+    tools: "Photoshop, Illustrator",
+    description: "A custom logo design and comprehensive visual branding project, showcasing the brand's aesthetic across physical packaging.",
+    image: "/work/Branding/Branding-1.png",
+    link: "#",
+  },
+  {
+    title: "Aurevya",
+    category: "Branding — Logo Design",
+    tools: "Illustrator, Typography",
+    description: "An elegant logo and brand identity crafted for a sophisticated artificial jewelry line.",
+    image: "/work/Logos/Logo-3.png",
+    link: "#",
+  },
+  {
+    title: "Amira",
+    category: "Branding — Logo Design",
+    tools: "Illustrator, Photoshop",
+    description: "A premium brand identity and logo design for Amira, a fine gold and diamond jewelry firm.",
+    image: "/work/Logos/Logo-4.png",
+    link: "#",
+  },
+  {
+    title: "Lunara Coffee Branding",
+    category: "Branding — Packaging",
+    tools: "Illustrator, Photoshop",
+    image: "/work/Branding/Branding-2.png",
+    link: "#",
+  },
+  {
+    title: "Corporate Signage & Identity",
+    category: "Branding — Environmental Design",
+    tools: "Illustrator, Photoshop",
+    image: "/work/Branding/Branding-3.png",
     link: "#",
   },
 ];
@@ -99,7 +165,7 @@ const Work = () => {
                   <div className="carousel-content">
                     <div className="carousel-info">
                       <div className="carousel-number">
-                        <h3>0{index + 1}</h3>
+                        <h3>{(index + 1).toString().padStart(2, "0")}</h3>
                       </div>
                       <div className="carousel-details">
                         <h4>{project.title}</h4>
@@ -110,6 +176,9 @@ const Work = () => {
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
                         </div>
+                        {project.description && (
+                          <p className="project-description">{project.description}</p>
+                        )}
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">

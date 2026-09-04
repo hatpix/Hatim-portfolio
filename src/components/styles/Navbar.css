@@ -21,7 +21,10 @@
   list-style: none;
   column-gap: 40px;
   row-gap: 8px;
-  align-items: end;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .header ul li {
   margin-left: 0px;

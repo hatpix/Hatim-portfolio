@@ -57,7 +57,7 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Freelance Graphic Designer</h4>
+                <h4>Freelance Designer</h4>
                 <h5>Soor Technologies · Kuwait</h5>
               </div>
               <h3>2018–19</h3>
@@ -80,6 +80,7 @@ const Career = () => {
               signage for events, plus social posts aligned with client brand guidelines.
             </p>
           </div>
+
         </div>
       </div>
     </div>
